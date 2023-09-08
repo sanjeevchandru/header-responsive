@@ -1,0 +1,110 @@
+	
+	/* mobile view */
+@media(min-width:320px)
+{
+	.container{
+		width:95%;
+		margin:auto;
+	}
+	header{
+		height:10vh; 
+	}
+	.head-row{
+		width:100%;
+		padding:10px 0px;
+	}
+	.head-logo{
+		width:10%;
+	}
+	
+	.head-nav{
+		width:50%;
+		display:none;
+	}
+	.head-btn{
+		padding-left:180px;
+		width:80%;
+	}
+	.head-btn a{
+		padding:5px 5px;
+	}
+	.head-menubar{
+		width:5%;
+		display:block;
+	}
+}
+	
+	
+	/* ipad view */
+	@media(min-width:760px)
+	{
+		.container{
+		width:95%;
+		margin:auto;
+	}
+	header{
+		height:10vh;
+	}		
+	.head-row{
+		width:100%;
+		padding:20px 0px;
+	}
+	.head-logo{
+		width:10%;
+	}
+	.head-logo h1{
+		font-size:50px;
+	}
+	.head-nav{
+		width:50%;
+		display:none;
+	}
+	.head-btn{
+		padding-left:470px;
+		width:80%;
+	}
+	.head-btn a{
+		padding:15px 30px;
+	}
+	.head-menubar{
+		width:5%;
+		display:block;
+	}
+}
+	
+	
+	/* labtop view */
+@media(min-width:960px)
+{
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	header{
+		height:15vh; 
+	}
+	.head-row{
+		width:100%;
+		padding:30px 0px;
+		}
+	.head-logo{
+		width:10%;
+	}
+	.head-logo h1{
+		font-size:30px;
+	}
+	.head-nav{
+		width:50%;
+		display:block;
+	}
+	.head-btn{
+		padding-left:30px;
+		width:20%;
+	}
+	.head-btn a{
+		padding:10px 20px;
+	}
+	.head-menubar{
+		display:none;
+	}
+}
